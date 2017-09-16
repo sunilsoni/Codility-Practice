@@ -134,7 +134,7 @@ public class BinaryGap {
 		
 		//Result: Your code is syntactically correct and works properly on the example test.
 		//Analysis summary:The solution obtained perfect score.
-
+		//https://codility.com/demo/results/trainingY93KXQ-R34/
 
 
 	}
