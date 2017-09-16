@@ -1,4 +1,4 @@
-package com.codility.lessons.binarygap;
+package com.codility.lessons.BinaryGap;
 
 public class BinaryGap2 {
 	public int solution(int N) {
