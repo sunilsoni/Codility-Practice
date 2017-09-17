@@ -37,6 +37,7 @@ package com.codility.lessons.Arrays;
 <p>Elements of input arrays can be modified.
  *
  */
+
 public class OddOccurrencesInArray {
 
 	public static int solution(int[] A) {
