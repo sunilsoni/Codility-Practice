@@ -24,8 +24,9 @@ In your solution, focus on correctness. The performance of your solution will no
 public class CyclicRotation {
 
 	public static void main(String[] args) {
-		 
-	int[]	A = {3, 8, 9, 7, 6} ;
+	
+	//https://codility.com/demo/results/trainingUBWFTE-G5D/
+	int[]	A = {-3, 8, 9, -7, 6} ;
 	int K = 3;
 	
     int[] sol1 = solution1(A,K);
@@ -58,6 +59,8 @@ public class CyclicRotation {
 
 	    for (int i = 0; i < size; i++) {
 	        ret[(i + K) % size] = A[i];
+	        
+	      //when i=0 then (0+3)=3 =>(3 modulo 5)= 3
 	    }
 
 	    return ret;
