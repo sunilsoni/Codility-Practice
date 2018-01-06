@@ -123,3 +123,19 @@ Assume that::
 N and K are integers within the range [0..100];
 each element of array A is an integer within the range [−1,000..1,000].
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
+
+
+== https://github.com/sunilsoni/Codility-Practice/tree/master/src/com/codility/lessons/TimeComplexity[Solutions to Lesson 3: Time Complexity]
+
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/TimeComplexity/FrogJmp.java[*Frog Jump:*] Count minimal number of jumps from position X to Y.
+
+
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/TimeComplexity/PermMissingElem.java[*Perm Missing Element:*] Find the missing element in a given permutation.
+
+
+
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/TimeComplexity/TapeEquilibrium.java[*Tape Equilibrium:*] Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
+
+
+
+
