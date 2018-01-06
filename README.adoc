@@ -2,10 +2,10 @@
 
 
 
-== https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/[AVAILABLE LESSONS:]
+== https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/[AVAILABLE LESSONS]
  
 
-== https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/BinaryGap[Solutions to Lesson 1: BinaryGap]
+== https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/BinaryGap[Solutions to Lesson 1: Binary Gap]
 
 * https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/BinaryGap/BinaryGap.java[*Binary Gap:*] Find longest sequence of zeros in binary representation of an integer.
 
@@ -102,9 +102,10 @@ the function should return [9, 7, 6, 3, 8]. Three rotations were made:
     [6, 3, 8, 9, 7] -> [7, 6, 3, 8, 9]
     [7, 6, 3, 8, 9] -> [9, 7, 6, 3, 8]
 -----------------
-	For another example, given
+
 [source,java]
 -----------------
+For another example, given
     A = [0, 0, 0]
     K = 1
 the function should return [0, 0, 0]
