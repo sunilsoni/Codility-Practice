@@ -1,8 +1,11 @@
-= Codility for Programmers
+= Codility for Programmers: AVAILABLE LESSONS:
+
+
 
 
  
 
-== https://github.com/sunilsoni/cracking-the-coding-interview/tree/master/src/com/ctci6/ch01[Solutions to Chapter 1: Arrays and Strings]
+== https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/BinaryGap[Solutions to Lesson 1: BinaryGap]
 
-* https://github.com/sunilsoni/cracking-the-coding-interview/blob/master/src/com/ctci6/ch01/IsUniqueChars.java[*Is Unique:*] Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/BinaryGap/BinaryGap.java[*Binary Gap:*] Find longest sequence of zeros in binary representation of an integer.
+
