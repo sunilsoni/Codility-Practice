@@ -2,12 +2,12 @@
 
 
 
-== https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/[Available Lessons]
+== https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/[Available Lessons]
  
 
-== https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/BinaryGap[Solutions to Lesson 1: Binary Gap]
+== https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/BinaryGap[Solutions to Lesson 1: Binary Gap]
 
-* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/BinaryGap/BinaryGap.java[*Binary Gap:*] Find longest sequence of zeros in binary representation of an integer.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/BinaryGap/BinaryGap.java[*Binary Gap:*] Find longest sequence of zeros in binary representation of an integer.
 
 A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.
 
@@ -33,7 +33,7 @@ expected worst-case space complexity is O(1).
 
 == https://github.com/sunilsoni/Codility-Practice/tree/master/src/com/codility/lessons/Arrays[Solutions to Lesson 2: Arrays]
 
-* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/Arrays/OddOccurrencesInArray.java[*Odd Occurrences In Array:*] Find value that occurs in odd number of elements.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/Arrays/OddOccurrencesInArray.java[*Odd Occurrences In Array:*] Find value that occurs in odd number of elements.
 
 A non-empty zero-indexed array A consisting of N integers is given. The array contains an odd number of elements, and each element of the array can be paired with another element that has the same value, except for one element that is left unpaired.
 
@@ -75,7 +75,7 @@ expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
 
 
-* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/Arrays/CyclicRotation.java[*Cyclic Rotation:*] Rotate an array to the right by a given number of steps.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/Arrays/CyclicRotation.java[*Cyclic Rotation:*] Rotate an array to the right by a given number of steps.
 A zero-indexed array A consisting of N integers is given. Rotation of the array means that each element is shifted right by one index, and the last element of the array is moved to the first place. For example, the rotation of array A = [3, 8, 9, 7, 6] is [6, 3, 8, 9, 7] (elements are shifted right by one index and 6 is moved to the first place).
 
 The goal is to rotate array A K times; that is, each element of A will be shifted to the right K times.
@@ -127,7 +127,7 @@ In your solution, focus on correctness. The performance of your solution will no
 
 == https://github.com/sunilsoni/Codility-Practice/tree/master/src/com/codility/lessons/TimeComplexity[Solutions to Lesson 3: Time Complexity]
 
-* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/TimeComplexity/FrogJmp.java[*Frog Jump:*] Count minimal number of jumps from position X to Y.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/TimeComplexity/FrogJmp.java[*Frog Jump:*] Count minimal number of jumps from position X to Y.
 A small frog wants to get to the other side of the road. The frog is currently located at position X and wants to get to a position greater than or equal to Y. The small frog always jumps a fixed distance, D.
 
 Count the minimal number of jumps that the small frog must perform to reach its target.
@@ -161,7 +161,7 @@ Complexity:
 expected worst-case time complexity is O(1);
 expected worst-case space complexity is O(1).
 
-* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/TimeComplexity/PermMissingElem.java[*Perm Missing Element:*] Find the missing element in a given permutation.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/TimeComplexity/PermMissingElem.java[*Perm Missing Element:*] Find the missing element in a given permutation.
 A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
 
 Your goal is to find that missing element.
@@ -194,7 +194,7 @@ expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
 
 
-* https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/TimeComplexity/TapeEquilibrium.java[*Tape Equilibrium:*] Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/TimeComplexity/TapeEquilibrium.java[*Tape Equilibrium:*] Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
 
 A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
 
