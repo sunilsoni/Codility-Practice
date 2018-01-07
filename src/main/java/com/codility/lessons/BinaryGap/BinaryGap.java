@@ -2,6 +2,7 @@ package com.codility.lessons.BinaryGap;
 
 /**
  * <p>{@link #Bitwise Operation https://en.wikipedia.org/wiki/Bitwise_operation}
+ *
  */
 
 public class BinaryGap {
