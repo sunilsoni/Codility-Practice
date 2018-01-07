@@ -195,6 +195,7 @@ expected worst-case space complexity is O(1), beyond input storage (not counting
 
 
 * https://github.com/sunilsoni/Codility-Practice/blob/master/src/com/codility/lessons/TimeComplexity/TapeEquilibrium.java[*Tape Equilibrium:*] Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
+
 A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
 
 Any integer P, such that 0 < P < N, splits this tape into two non-empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1], ..., A[N − 1].
