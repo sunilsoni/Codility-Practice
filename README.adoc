@@ -253,7 +253,7 @@ expected worst-case space complexity is O(N), beyond input storage (not counting
 
 == https://github.com/sunilsoni/Codility-Practice/tree/master/src/com/codility/lessons/CountingElements[Solutions to Lesson 4: Counting Elements]
 
-* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/CountingElements/PermCheck.java[*Permutation  Check:*] Check whether array A is a permutation.
+* https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/CountingElements/PermutationCheck.java[*Permutation  Check:*] Check whether array A is a permutation.
 
 A non-empty zero-indexed array A consisting of N integers is given.
 
