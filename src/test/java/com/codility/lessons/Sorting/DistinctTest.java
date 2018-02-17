@@ -17,38 +17,45 @@ import com.codility.lessons.CountingElements.PermutationCheckTest;
 @RunWith(SpringRunner.class)
 public class DistinctTest {
 
-	  private static Logger LOG = LoggerFactory.getLogger(PermutationCheckTest.class);
+	private static Logger LOG = LoggerFactory.getLogger(PermutationCheckTest.class);
 
-	    static PermutationCheck permutationCheck;
+	static PermutationCheck permutationCheck;
 
-	    @Rule
-	    public Timeout globalTimeout = Timeout.seconds(1);
+	@Rule
+	public Timeout globalTimeout = Timeout.seconds(1);
 
-	    @BeforeClass
-	    public static void setup() {
-	        permutationCheck = new PermutationCheck();
-	    }
+	@BeforeClass
+	public static void setup() {
+		permutationCheck = new PermutationCheck();
+	}
 
-	    static long start, end;
+	static long start, end;
 	static double diff;
-	    @Before
-	    public void start() {
-	        start = System.currentTimeMillis();
-	        LOG.info("start-->" + start);
-	    }
 
-	    @After
-	    public void end() {
-	        end = System.currentTimeMillis();
-	        LOG.info("end-->" + end);
+	@Before
+	public void start() {
+		start = System.currentTimeMillis();
+		LOG.info("start-->" + start);
+	}
 
-	        diff = end - start;
-	        LOG.info("millis-->" + (diff ) );//millis
-	        LOG.info("seconds-->" + (diff / 1000) );//seconds
-	    }
-	    
-	    @Test
-	    public void DistinctCheckTest() {
-	    	
-	    }
+	@After
+	public void end() {
+		end = System.currentTimeMillis();
+		LOG.info("end-->" + end);
+
+		diff = end - start;
+		LOG.info("millis-->" + (diff));// millis
+		LOG.info("seconds-->" + (diff / 1000));// seconds
+	}
+
+	@Test
+	public void solution1Test() {
+
+	}
+
+	@Test
+	public void solution2Test() {
+
+	}
+
 }
