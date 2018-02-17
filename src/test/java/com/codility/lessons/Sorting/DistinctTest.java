@@ -1,5 +1,7 @@
 package com.codility.lessons.Sorting;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -56,7 +58,14 @@ public class DistinctTest {
 
 	@Test
 	public void solution1Test() {
+		int[] A = new int[5];
+		for (int i = 0; i < 5; i++) {
+			A[i] = i + 100;
+			LOG.info("A-->" + A[i]);
+		}
 
+		int res = permutationCheck.solution(A);
+		assertEquals(res, 0);
 	}
 
 	@Test

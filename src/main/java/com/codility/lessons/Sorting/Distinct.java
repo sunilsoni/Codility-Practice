@@ -15,7 +15,7 @@ public class Distinct {
         }
         return numberSet.size();
     }
-    
+
     public int solution2(int[] A) {
         int N = A.length;
         if (N == 0)
