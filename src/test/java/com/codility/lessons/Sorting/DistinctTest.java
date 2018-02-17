@@ -14,6 +14,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.codility.lessons.CountingElements.PermutationCheck;
 import com.codility.lessons.CountingElements.PermutationCheckTest;
 
+/**
+ * https://app.codility.com/demo/results/trainingKSZ5AP-TS8/
+ * 
+ * @author Sunil
+ *
+ */
 @RunWith(SpringRunner.class)
 public class DistinctTest {
 
