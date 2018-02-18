@@ -466,9 +466,6 @@ The figure below shows discs drawn for N = 6 and A as follows:
   A[4] = 4
   A[5] = 0
 -----------------
-[#img-sunset]
-[link=https://codility-frontend-prod.s3.amazonaws.com/media/task_static/number_of_disc_intersections/static/images/auto/0eed8918b13a735f4e396c9a87182a38.png]
-image::0eed8918b13a735f4e396c9a87182a38.png.jpg[Sunset,300,200]
 
 There are eleven (unordered) pairs of discs that intersect, namely:
 
