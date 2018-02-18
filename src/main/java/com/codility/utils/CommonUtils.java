@@ -28,4 +28,26 @@ public class CommonUtils {
 		return randomInt(max + 1 - min) + min;
 	}
 
+	public static void printIntArray(int[] array) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+		System.out.println("");
+	}
+
+	public static String arrayToString(int[] array) {
+		if (array == null)
+			return "";
+		return arrayToString(array, 0, array.length - 1);
+	}
+
+	public static String arrayToString(int[] array, int start, int end) {
+		StringBuilder sb = new StringBuilder();
+		for (int i = start; i <= end; i++) {
+			int v = array[i];
+			sb.append(v + ", ");
+		}
+		return sb.toString();
+	}
+
 }
