@@ -14,26 +14,21 @@ import org.slf4j.LoggerFactory;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.codility.lessons.CountingElements.PermutationCheckTest;
+import com.codility.utils.CommonUtils;
 
-/**
- * https://app.codility.com/demo/results/trainingKSZ5AP-TS8/
- * 
- * @author Sunil
- *
- */
 @RunWith(SpringRunner.class)
-public class DistinctTest {
+public class MaxProductOfThreeTest {
 
 	private static Logger LOG = LoggerFactory.getLogger(PermutationCheckTest.class);
 
-	static Distinct distinct;
+	static MaxProductOfThree maxProductOfThree;
 
 	@Rule
 	public Timeout globalTimeout = Timeout.seconds(1);
 
 	@BeforeClass
 	public static void setup() {
-		distinct = new Distinct();
+		maxProductOfThree = new MaxProductOfThree();
 	}
 
 	static long start, end;
@@ -57,18 +52,19 @@ public class DistinctTest {
 
 	@Test
 	public void solution1Test() {
-		int[] A = new int[5];
-		for (int i = 0; i < 5; i++) {
-			A[i] = i + 100;
-			LOG.info("A-->" + A[i]);
-		}
+		int[] A = CommonUtils.randomArray(5, 1, 10);
 
-		int res = distinct.solution1(A);
+		int res = maxProductOfThree.solution1(A);
 		assertEquals(res, 0);
 	}
 
 	@Test
 	public void solution2Test() {
+
+	}
+
+	@Test
+	public void solution3Test() {
 
 	}
 
