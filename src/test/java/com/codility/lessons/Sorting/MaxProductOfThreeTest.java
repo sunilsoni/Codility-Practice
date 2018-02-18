@@ -71,11 +71,11 @@ public class MaxProductOfThreeTest {
 
 	@Test
 	public void solution3Test() {
-		int[] A = { 2, 8, 5, 2, 4 };
+		int[] A = { -3, 1, 2, -2, 5, 6 };
 		int res = maxProductOfThree.solution3(A);
 		LOG.info("res-->" + res);
 
-		assertEquals(res, 160);
+		assertEquals(res, 60);
 	}
 
 }
