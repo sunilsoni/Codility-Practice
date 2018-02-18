@@ -13,59 +13,64 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.codility.lessons.CountingElements.PermutationCheck;
 import com.codility.lessons.CountingElements.PermutationCheckTest;
 
 /**
- * https://app.codility.com/demo/results/trainingKSZ5AP-TS8/
+ * https://app.codility.com/demo/results/trainingCEY5VM-9WC/
  *
  * @author Sunil
  *
  */
 @RunWith(SpringRunner.class)
 public class TriangleTest {
-    private static Logger LOG = LoggerFactory.getLogger(PermutationCheckTest.class);
-    static Triangle triangle;
-    @Rule
-    public Timeout globalTimeout = Timeout.seconds(1);
-    @BeforeClass
-    public static void setup() {
-        triangle = new Triangle();
-    }
+	private static Logger LOG = LoggerFactory.getLogger(PermutationCheckTest.class);
+	static Triangle triangle;
+	@Rule
+	public Timeout globalTimeout = Timeout.seconds(1);
 
-    static long start, end;
-    static double diff;
+	@BeforeClass
+	public static void setup() {
+		triangle = new Triangle();
+	}
 
-    @Before
-    public void start() {
-        start = System.currentTimeMillis();
-        LOG.info("start-->" + start);
-    }
+	static long start, end;
+	static double diff;
 
-    @After
-    public void end() {
-        end = System.currentTimeMillis();
-        LOG.info("end-->" + end);
+	@Before
+	public void start() {
+		start = System.currentTimeMillis();
+		LOG.info("start-->" + start);
+	}
 
-        diff = end - start;
-        LOG.info("millis-->" + (diff));// millis
-        LOG.info("seconds-->" + (diff / 1000));// seconds
-    }
+	@After
+	public void end() {
+		end = System.currentTimeMillis();
+		LOG.info("end-->" + end);
 
-    @Test
-    public void solution1Test() {
-        int[] A = new int[5];
-        for (int i = 0; i < 5; i++) {
-            A[i] = i + 100;
-            LOG.info("A-->" + A[i]);
-        }
+		diff = end - start;
+		LOG.info("millis-->" + (diff));// millis
+		LOG.info("seconds-->" + (diff / 1000));// seconds
+	}
 
-        int res = triangle.solution(A);
-        assertEquals(res, 1);
-    }
+	@Test
+	public void solution1Test() {
+		int[] A = new int[5];
+		for (int i = 0; i < 5; i++) {
+			A[i] = i + 100;
+		}
 
-    @Test
-    public void solutionTest() {
+		int res = triangle.solution1(A);
+		assertEquals(res, 1);
+	}
 
-    }
+	@Test
+	public void solution2Test() {
+		int[] A = new int[5];
+		for (int i = 0; i < 5; i++) {
+			A[i] = i + 100;
+		}
+
+		int res = triangle.solution2(A);
+		assertEquals(res, 1);
+	}
 }
