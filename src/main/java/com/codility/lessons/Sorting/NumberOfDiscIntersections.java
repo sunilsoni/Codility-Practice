@@ -6,6 +6,8 @@ import java.util.Comparator;
 /**
  * Compute the number of intersections in a sequence of discs.
  * 
+ * @url https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/
+ * 
  * @author Sunil
  *
  */

@@ -35,13 +35,13 @@ public class NumberOfDiscIntersectionsTest {
 	@Before
 	public void start() {
 		start = System.currentTimeMillis();
-		LOG.info("start-->" + start);
+		LOG.debug("start-->" + start);
 	}
 
 	@After
 	public void end() {
 		end = System.currentTimeMillis();
-		LOG.info("end-->" + end);
+		LOG.debug("end-->" + end);
 
 		diff = end - start;
 		LOG.info("millis-->" + (diff));// millis
