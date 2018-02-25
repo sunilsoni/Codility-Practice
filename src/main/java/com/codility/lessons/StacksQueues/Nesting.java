@@ -2,8 +2,7 @@ package com.codility.lessons.StacksQueues;
 
 public class Nesting {
 
-	public int solution(String S) {
-		// write your code in Java SE 8
+	public int solution1(String S) {
 		int N = S.length();
 		// if the length of string s is odd, then it can't be nested.
 		if (N % 2 == 1)
@@ -25,6 +24,21 @@ public class Nesting {
 			return 1;
 		else
 			return 0;
+	}
+
+	public int solution2(String S) {
+		int leftBracketNum = 0;
+		for (int i = 0; i < S.length(); i++) {
+			if (S.charAt(i) == '(') {
+				leftBracketNum++;
+			} else {
+				if (leftBracketNum == 0) {
+					return 0;
+				}
+				leftBracketNum--;
+			}
+		}
+		return leftBracketNum == 0 ? 1 : 0;
 	}
 
 }

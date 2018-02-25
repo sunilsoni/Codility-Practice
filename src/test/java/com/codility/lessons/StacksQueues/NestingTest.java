@@ -53,7 +53,15 @@ public class NestingTest {
 	public void solution1Test() {
 		String s = "(()(())())";
 
-		int res = nesting.solution(s);
+		int res = nesting.solution1(s);
+		assertEquals(res, 1);
+	}
+
+	@Test
+	public void solution2Test() {
+		String s = "(()(())())";
+
+		int res = nesting.solution2(s);
 		assertEquals(res, 1);
 	}
 
