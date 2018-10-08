@@ -2,7 +2,7 @@
 
 
 
-== https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/[Available Lessons]
+== https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/[Available Lesson]
  
 
 == https://github.com/sunilsoni/Codility-Practice/blob/master/src/main/java/com/codility/lessons/BinaryGap[Solutions to Lesson 1: Binary Gap]
